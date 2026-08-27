@@ -2,5 +2,9 @@ th{
     border: 2px black;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(86, 208, 167);
+}
+.required  {
+    
+    color: red;
 }

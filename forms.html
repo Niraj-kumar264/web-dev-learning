@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form action="post"></form>
+    <div>
+        <label for="full name">Enter your full name <span class="required">*</span></label>
+        <br>
+        <input type="text" id="username" name="username" placeholder="enter your full name">
+
+    </div>
+    <div>
+        <label for="course ">course & specialization(eg.BCA/Bsc IT/MCA) <span class="required">*</span></label>
+        <br>
+        <input type="text" id="course" name="course" placeholder="your specialization">
+    </div>
+    <div>
+        <label for="passing year">passing year <span class="required">*</span></label>
+        <br>
+        <select name="passing year" id="passing year">
+            <label for="passing year">passing year</label>
+            <option value="2025">2025</option>
+            <option value="2026">2026 </option>
+            <option value="2027">2027</option>
+        </select>
+    </div>
+    <div>
+        <label for="age">enter your age <span class="required">*</span></label>
+        <br>
+        <input type="number" name="age" id="age">
+    </div>
+    <div>
+        <label for="contact number">contect number <span class="required">*</span></label>
+        <br>
+        <input type="tel" pattern="[0-9] {10}" maxlength="10"  id="number" name="number">
+    </div>
+    <div>
+        <label for="Email ID">Email ID <span class="required">*</span></label>
+        <br>
+        <input type="email" name="email ID" id="email">
+    </div>
+    <div>
+        <label for="registered befor">have you completed registration on the official portal <span class="required">*</span></label>
+        <br>
+        <input type="radio" name="registered" id="yes" value="yes">
+        <label for="yes">yes</label>
+        <br>
+        <input type="radio" name="registered" id="no" value="no">
+        <label for="no">no</label>
+    </div>
+    <div>
+        <label for="programing language">programming languages known</label>
+        <br>
+        <textarea name="programing language" id="programming language" rows="4" cols="200"></textarea>  
+    </div>
+    <div>
+        <label for="upload resume" id="resume">uplad resume/cv <span class="required">*</span></label>
+        <br>
+        <input type="file" accept=".pdf, .doc, .docx" name="upload resume" id="resume">
+        <br>
+        only ".pdf , .doc , .docx" allowed
+    </div>
+    <div>
+        <label for="enrolment">Enrolment NUmber <span class="required">*</span></label>
+        <br>
+        <input type="text" name="enrolment" id="enroll" placeholder="enter your enrolment number">
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <button type="submit">submit</button>
+<body>
+</html>
