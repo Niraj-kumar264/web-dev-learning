@@ -1,0 +1,19 @@
+ .container {
+            border: 2px solid black;
+            display: flex;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+            row-gap: 10px;
+            column-gap: 10px;
+
+        }
+        .items {
+            height: 32px;
+            width: 32px;
+            border: 2px solid black;
+            /* margin: 4px; */
+            background-color: blueviolet;
+        }
