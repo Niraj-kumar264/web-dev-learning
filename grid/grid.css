@@ -1,0 +1,34 @@
+.container {
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: 120px 100px;
+            grid-template-rows: 100px 100px 100px; */
+            grid-template-areas: "nav nav nav"
+                "main side article"
+                "footer footer footer";
+
+        }
+
+        .item {
+            border: 2px solid red;
+            height: 80px;
+            /* width: 80px; */
+        }
+
+        .item1 {
+            grid-area: nav;
+        }
+
+        .item2 {
+            grid-area: main;
+        }
+
+        .item3 {
+            grid-area: article;
+            /* grid-row: 1/2; use to change position */
+        }
+
+        .item4 {
+            grid-area: footer;
+        }
+    
