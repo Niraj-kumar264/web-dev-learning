@@ -1,0 +1,26 @@
+
+        .logo img {
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 100px;
+            
+           
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .right ul {
+            display: flex;
+            gap: 34px
+            ;
+        }
+        .right ul li {
+            list-style: none;
+            
+
+        }
+            
+        
+  
