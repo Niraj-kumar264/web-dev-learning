@@ -1,0 +1,58 @@
+ .logo img {
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 100px;
+            
+           
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .right ul {
+            display: flex;
+            gap: 34px
+            ;
+        }
+        .right ul li {
+            list-style: none;
+            
+
+        }
+        .container {
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            text-align: center;
+            align-content: center;
+
+        }
+        .box {
+            /* height: 80px; */
+            /* width: 200px; */
+            background-color: aquamarine;
+            max-width: 50vw;
+        }
+        .download {
+           
+            border: 2px solid black;
+            background-color: rgb(86, 86, 214);
+            overflow: auto;
+            font-size: 10px;
+            display: inline;
+            
+        }
+        /* .english1 {
+            
+            border: 2px solid black;
+            background-color: rgb(86, 86, 214);
+            overflow: auto;
+            font-size: 10px;
+            display: inline;
+            
+        } */
+       
+        
