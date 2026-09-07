@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    background-color: aqua;
+    height: 80vh;
+    width: 80vw;
+}
+
+.box {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 70px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+   animation: nkanimation 3s linear infinite, anime2 1s ease-in-out infinite alternate-reverse;
+    
+}
+
+@keyframes nkanimation {
+    from {
+        background-color: red;
+        left: 0;
+
+    }
+
+    to {
+        background-color: yellow;
+        left: 100%;
+}
+}
+
+@keyframes anime2 {
+    from {
+        bottom: 0;
+
+    }
+
+    to {
+        bottom: 100%;
+    }
+
+}
