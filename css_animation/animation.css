@@ -1,0 +1,28 @@
+.container {
+            background-color: aqua;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box {
+            width: 34px;
+            height: 45px;
+            background-color: bisque;
+             /* animation-name: nkanimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: alternate-reverse;  */
+            animation: nkanimation 2s ease-in-out 1s infinite alternate-reverse forwards;
+        }
+
+        @keyframes nkanimation {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+                transform: translateX(30vw);
+            }
+        }
