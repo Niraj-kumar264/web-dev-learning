@@ -249,3 +249,26 @@ right: 10px;
 height: auto;
 width: 50px;
 }
+
+.frequency {
+  position: relative;
+  height: 50px;
+  background-color: #80808087;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  z-index: 2;
+}
+
+.plus {
+position: absolute;
+right: 10px;
+font-size: 80px;
+align-self: center;
+}
+
