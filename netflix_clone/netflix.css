@@ -272,3 +272,56 @@ font-size: 80px;
 align-self: center;
 }
 
+.mai {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 15px;
+    width: 35vw;
+    background: transparent;
+    z-index: 2;
+    color: white;
+}
+
+h3 {
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  margin-left: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  align-self: center;
+}
+
+.mail {
+margin: 10px;
+padding: 10px;
+justify-items: center;
+  height: 100px;
+  z-index: 2;
+}
+
+input1 {
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(22, 21, 21, 0.22);
+  color: rgb(223, 214, 214);
+  font-weight: bold;
+  z-index: 2;
+
+}
+.btn-red2 {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  width: 20vw;
+  border-radius: 6px;
+  position: relative;
+}
+
+.btn-red2 span {
+  position: absolute;
+  right: 35px;
+  font-size: larger;
+}
