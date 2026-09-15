@@ -268,7 +268,7 @@ width: 50px;
 .plus {
 position: absolute;
 right: 10px;
-font-size: 80px;
+font-size: 70px;
 align-self: center;
 }
 
@@ -324,4 +324,58 @@ input1 {
   position: absolute;
   right: 35px;
   font-size: larger;
+}
+
+.que{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.que span {
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.question {
+  height: 30vh;
+  /* width: 60%; */
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 90px;
+  gap: 20px;
+  position: relative;
+  margin-top: 50px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5 1fr);
+}
+
+.quest {
+    text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.btn5 {
+   padding: 3px 24px;
+   margin: 30px;
+   margin-left: 80px;
+   border: 2px solid white;
+  /* background-color: white; */
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(223, 214, 214);
+  background-color: rgba(23, 22, 22, 0.2);
+}
+
+.net {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* margin-top: 10px; */
+  align-self: center;
 }
