@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom using javaScript</title>
+    <style>
+      .box {
+         height: 45px;
+         width: 45px;
+         border: 2px solid black;
+         margin: 5px;
+         padding: 5px;
+      }
+    </style>
+    <script>document.body
+// <body>​<!-- dom stand for document object model --><div class=​"container">​…​</div>​</body>​
+// document.body.childNodes
+// NodeList(5) [text, comment, text, div.container, text]
+// document.body.childNodes[2]
+// #text
+// document.body.firstElementChild
+// <div class=​"container">​…​</div>​
+// document.body.firstElementChild.children
+// HTMLCollection(5) [div.box, div.box, div.box, div.box, div.box]
+
+//select by class and ids
+let boxes = document.getElementsByClassName("box") ; console.log(boxes)
+boxes[3].style.background = "red"
+</script>
+ </head>
+<body>
+    <!-- dom stand for document object model -->
+     <div class="container">
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+    <div class="box">box4</div>
+    <div class="box">box5</div>
+     </div>
+    
+</body>
+</html>
