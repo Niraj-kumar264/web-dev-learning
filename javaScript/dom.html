@@ -13,7 +13,7 @@
          padding: 5px;
       }
     </style>
-    <script>document.body
+    <script>
 // <body>​<!-- dom stand for document object model --><div class=​"container">​…​</div>​</body>​
 // document.body.childNodes
 // NodeList(5) [text, comment, text, div.container, text]
@@ -25,18 +25,30 @@
 // HTMLCollection(5) [div.box, div.box, div.box, div.box, div.box]
 
 //select by class and ids
-let boxes = document.getElementsByClassName("box") ; console.log(boxes)
-boxes[3].style.background = "red"
-</script>
+// let boxes = document.getElementsByClassName("box") ; console.log(boxes)
+// boxes[3].style.background = "red"
+
+//creating a new element using javaScript
+// let div = document.createElement("div");
+// div.innerHTML = "i am created using javaScript"
+// div.setAttribute("class", "created ")
+// document.querySelector(".container").append(div);
+// </script>
  </head>
 <body>
     <!-- dom stand for document object model -->
      <div class="container">
+
     <div class="box">box1</div>
     <div class="box">box2</div>
     <div class="box">box3</div>
     <div class="box">box4</div>
     <div class="box">box5</div>
+    <script>let div = document.createElement("div");
+div.innerHTML = "i am created using javaScript"
+div.setAttribute("class", "created ")
+document.querySelector(".container").append(div);</script>
+ 
      </div>
     
 </body>
